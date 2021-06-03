@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Segoe UI', Arial ;
+}
+img{
+    width: 100%;
+}
+input{
+    width: 100%;
+    padding: 8px 10px;
+    border: 0;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="email"]{
+    background-color: rgba(234, 244, 255, 1);
+}
+input[type="password"]{
+    background-color: rgba(255, 234, 234, 1);
+    color: red;
+}
+main{
+    background-image: url(../assets/finalLogin.png);
+    padding: 50px;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+.content{
+    background-color: #ffff;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.content-image{
+    width: 50%;
+}
+.login-form{
+    width:50%;
+    padding: 0px 70px;
+    box-sizing: border-box;
+}
+.login-form h3{
+    font-weight: 400;
+
+}
+.login-form .input{
+    margin-top: 30px ;
+    
+}
+.login-form small{
+    float: right;
+    color: #658fca;
+}
+button{
+    margin: 18px auto;
+    display: block;
+    padding: 7px 28px;
+    background-color: #74aafc;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+}
+.social{
+    text-align: center;
+}
+.margin{
+    margin: 20px 0px;
+}
+.icon a{
+    width: 20px;
+    padding: 0px 3px;
+}
+.social strong{
+    color:#658fca ;
+}
+@media(max-width:992px){
+    .container{
+        width: 90%;
+       
+    }
+    
+    .content-image{
+    width: 50%
+    }
+    .login-form{
+        width: 50%;
+       
+    }
+}
+
+@media(max-width:767px){
+    .container{
+        width: 90%;
+       
+    }
+    .content-image{
+    width: 100%;
+    }
+    .login-form{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .content{
+        padding: 15px;
+    }
+}
+@media(max-width:560px){
+    .container{
+        width: 95%;
+       
+    }
+    .content{
+        padding: 10px;
+    }
+    .content-image{
+    width: 100%;
+    }
+    .login-form{
+        width: 100%;
+        margin-top: 20px;
+    }
+}
